@@ -1,0 +1,35 @@
+Please, make refactoring of the code:
+
+      We know that adult  doesn't have childIDNumber 
+
+       child doesn't have passportNumber.
+
+       Create a public constructor in each class to initialize all their fields (make the first parameter of type int and the second one for name initialization).
+
+       Accessibility of the fields should be the least possible, but the same in all assemblies.
+
+       Add ToString() method to Child and Adult classes that will return a string in the format: "name document_number"
+
+     
+
+    public class Person
+    {
+        protected string childIDNumber;
+    }
+
+ public class Child
+    {
+        private int yearOfBirth;
+        private string healthInfo;
+        private string name;
+        public string GetHealthStatus() { return name + ": " + yearOfBirth + ". " + healthInfo;}
+    }
+
+ public class Adult
+    {
+        private int yearOfBirth;
+        private string healthInfo;
+        private string passportNumber;
+        private string name;
+        public string GetHealthStatus() {return name + ": " + yearOfBirth + ". " + healthInfo; }
+    }

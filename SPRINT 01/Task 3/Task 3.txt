@@ -1,0 +1,25 @@
+Create class Fraction with private int fields numerator and denominator that can only be initialized on creation or in constructor
+
+Create a constructor to initialize these values
+
+Define operators unary and binary + and - (example: Fraction(-167, 100) - Fraction(3, 2) should result in "-317 / 100")
+
+Define the ! operator that will return reversed fraction - with numerator as denominator and denominator as numerator (For example, Fraction(-3, 100) results to "-100 / 3")
+
+Define binary  * and / operations.
+
+All operations should return simplified fractions.
+
+Define ToString() method which will return string representing Fraction in the format numerator / denominator. 
+
+Value should be simplified: numerator and denominator divided by the greatest common divisor. 
+
+if  numerator and denominator are both negative, the fraction should become positive. 
+
+If only denominator is negative the sign should be outputted before numerator without space.
+
+Define Equals method and operators == and !=. Fractions are equal if their simplified versions are equal. 
+
+(for example, 20/25 is equal to 4/5)
+
+Define GetHashCode() method with the implementation of your choice.
