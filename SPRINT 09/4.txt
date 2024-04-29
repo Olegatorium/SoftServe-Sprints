@@ -1,0 +1,13 @@
+﻿Suppose we have a class named Calc which has a method Seq
+generating n-th member of a certain number sequence (starting from 1).
+
+Define a class named CalcAsync. In this class:
+
+Write an asynchronous stream called SeqStreamAsync taking integer parameter n,
+that returns a collection of n tuples
+consisting of a number i (from 1 to n) and i-th member of the sequence.
+
+Write an asynchronous static method PrintStream
+taking an asynchronous stream of tuples consisting of 2 integer numbers,
+which prints the collection as follows:
+"Seq[X] = Y", where X is the first item of a tuple, Y is the second one.

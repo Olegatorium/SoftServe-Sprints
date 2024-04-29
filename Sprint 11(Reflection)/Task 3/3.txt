@@ -1,0 +1,11 @@
+﻿Within the class ReflectProperties you have to:
+1) create public class TestProperties with four properties:
+- public string FirstName;
+- internal string LastName;
+- protected int Age;
+- private string PhoneNumber.
+2) define a static method WriteProperties() that contains logic:
+- form the collection of the properties of TestProperties class;
+- iterate through the collection;
+- provide the console output of the name, type, read/write ability, and accessibility level of every property.
+The invoke of WriteProperties() method will cause the result:

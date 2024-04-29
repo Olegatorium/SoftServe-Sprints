@@ -1,0 +1,5 @@
+﻿Within the class ReflectFullClass define a static method WriteAllInClass(). The method will take one parameter of Type type (f.e. class). 
+
+The method outputs a greeting with the class and allows it to iterate through the class and output the names of all custom members of the class (fields, properties, methods), interfaces, and the total quantity of every member and interface.
+
+The probable result of invoking:
